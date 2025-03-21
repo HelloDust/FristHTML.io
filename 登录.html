@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>长安三万里</title>
+  <link rel="shortcut icon" href="img/大雁塔.png" type="iamge/x-icon"/>
+  <script src="js/jquery-3.7.1.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="js/SignIn.js" type="text/javascript" charset="utf-8"></script>
+<link rel="stylesheet" href="./css/登录.css">
+
+</head>
+<body>
+	<div id="re_index">
+		<button>
+				<a href="长安首页.html?login=null">返回首页</a>
+		</button>		
+				<p>账号：123456</p>
+				<p>密码：123456</p>
+			</div>
+	<!-- partial:index.partial.html -->
+	<div class="container right-panel-active">
+		
+		<div class="container__form container--signup">
+			<form action="#" class="form" id="form1">
+				<h2 class="form__title">注册账号</h2>
+				<input type="text"  name="phone" id="phone" placeholder="手机号" class="input" />
+				<input type="text" name="code" id="code" placeholder="输入六位短信验证码" class="input" />
+				<input type="password" name="password" id="password1" placeholder="密码" class="input" />
+				<a href="#">获取验证码</a>
+				<button class="btn">点击注册</button>
+			</form>
+		</div>
+		
+		<!-- <div class="container__form container--signin">
+			<form action="#" class="form" id="form2">
+				<h2 class="form__title">Sign In</h2>
+				<input type="email" placeholder="Email" class="input" />
+				<input type="password" placeholder="Password" class="input" />
+				<a href="#" class="link">Forgot your password?</a>
+				<button class="btn">Sign In</button>
+			</form>
+		</div> -->
+	<div class="container__form container--signin">	
+		<form action="#" class="form" id="form1">
+			
+		<div id="login_content">
+			<div id="login1" class="=login">
+				<form class="form" method="post">
+					<h2 class="form__title">欢迎登录</h2>
+				<input type="text" name="username" id="username" placeholder="手机号/邮箱/用户名" class="input"/>	
+				<input type="password" name="password" id="password" placeholder="密码" class="input"/>
+				<label id="warn">　</label>
+				
+				<input class="btn1" type="button" name="submit" id="submit" value="登录" />
+				<!-- <div class="but1">
+					<span><a href="#">忘记密码?</a></span>
+				</div> -->
+				</form>
+			</div>
+			<div id="login_footer">
+							<ul>
+								<li><i id="icon1" class="icon"></i></li>
+								<li><i id="icon2" class="icon"></i></li>
+								<li><i id="icon3" class="icon"></i></li>
+							</ul>
+			</div>
+
+		</div>
+	</form>
+	</div>
+		
+	
+	<div class="container__overlay">
+		<div class="overlay">
+			<div class="overlay__panel overlay--left">
+				<button class="btn" id="signIn">已有账号，直接登录</button>
+			</div>
+			<div class="overlay__panel overlay--right">
+				<button class="btn" id="signUp">没有账号，点击注册</button>
+			</div>
+		</div>
+	</div>
+	
+</div>
+  <script  src="./js/script.js"></script>
+
+</body>
+</html>
